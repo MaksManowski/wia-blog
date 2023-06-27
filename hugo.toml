@@ -1,6 +1,6 @@
 baseurl = "https://zhaohuabing.com"
-title = "Huabing Blog"
-theme = "hugo-theme-cleanwhite"
+title = "Warwick in Africa Blog"
+theme = "hugo-theme-wia"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
