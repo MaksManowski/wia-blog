@@ -5,6 +5,8 @@ subtitle:   "How to set up this theme"
 date:       1919-01-09
 author:     "赵化冰"
 image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
+URL: "/readme"
+published: false
 ---
 
 # Clean White Theme for Hugo
