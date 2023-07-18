@@ -1,9 +1,9 @@
-baseurl = "https://zhaohuabing.com"
-title = "Huabing Blog"
+baseurl = "https://wia.manowski.me"
+title = "Warwick In Africa Blog"
 theme = "hugo-theme-wia"
-languageCode = "en-us"
+languageCode = "en-uk"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "wia-blog"
 googleAnalytics = ""
 preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
@@ -14,13 +14,13 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/home-bg-jeep.jpg"
-  SEOTitle = "赵化冰的博客 | Zhaohuabing Blog"
-  description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
-  keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
-  slogan = "路在脚下，心向远方"
+  SEOTitle = "WIA Blog"
+  description = "A blog about Warwick in Africa made by a student volunteer. Warwick in Africa aims to improve education in Sub-Saharan Africa."
+  keyword = "Warwick in Africa, Student Volunteer, Warwick, Volunteering, Warwick Volunteering, Maks Manowski, Maksymilian Manowski"
+  slogan = "Created by a Student Volunteer Teacher in 2023"
 
   image_404 = "img/404-bg.jpg"
-  title_404 = "你来到了没有知识的荒原 :("
+  title_404 = "Your page was not found! :("
   omit_categories = false
 
   # leancloud storage for page view counter
@@ -30,12 +30,12 @@ home = ["HTML", "RSS", "Algolia"]
 
   # algolia site search
   algolia_search = true
-  algolia_appId = ""
-  algolia_indexName = ""
-  algolia_apiKey = ""
+  algolia_appId = "RVB7NXHATE"
+  algolia_indexName = "index_wia_blog"
+  algolia_apiKey = "c6e2ff809646da02ff73f4ca1f47dda8"
 
   # Sidebar settings
-  sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  sidebar_about_description = "sidebar_about_description"
   #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
@@ -48,44 +48,46 @@ home = ["HTML", "RSS", "Algolia"]
   # We need a proxy to access Disqus api in China
   # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
   disqus_proxy = ""
-  disqus_site = ""
+#  disqus_site = "wia-blog.disqus.com"
+  DisqusShortname = "wia-blog"
+  disqusShortname = "wia-blog"
 
-  # Twikoo comments
+# Twikoo comments
   # Follow https://twikoo.js.org/ to set up your own env_id
   twikoo_env_id = ""
 
   #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
-  reward = true 
+  reward = false
   # reward_guide = "如果这篇文章对你有用,请随意打赏" 
 
-  friends = true
+  friends = false
   bookmarks = false
-  about_me = true
+  about_me = false
 
   # Include any custom CSS and/or JS files, url or relative to /static folder
   #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
   #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
 
   [params.social]
-  rss            = true 
-  email          = "youremail@gmail.com"
-  #facebook      = "full profile url in facebook"
-  #googleplus    = "full profile url in googleplus"
-  #twitter       = "full profile url in twitter"
-  linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
-  stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
-  #instagram     = "full profile url in instagram"
-  github         = "https://github.com/yourgithub"
-  wechat         = "your wechat qr code image"
-  #medium        = "full profile url in medium"
-  #slack         = "full workspace url in slack"
-  #pinterest     = "full profile url in pinterest"
-  #reddit        = "full profile url in reddit"
-  #gitlab        = "full profile url in gitlab"
-  #mastodon      = "full profile url in mastodon"
-  #keybase       = "full profile url in keybase"
-  #xing          = "https://www.xing.com/profile/yourxingid"
-  #git           = "full profile url for git user"
+  rss            = true
+  email          = "Maks.Manowski@warwick.ac.uk"
+  facebook      = "https://www.facebook.com/WarwickinAfrica/"
+#  googleplus    = "full profile url in googleplus"
+  twitter       = "https://twitter.com/WarwickinAfrica/"
+  linkedin       = "https://www.linkedin.com/company/warwick-in-africa/"
+#  stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  instagram     = "https://www.instagram.com/warwickinafrica/"
+  github         = "https://github.com/MaksManowski/wia-blog/"
+#  wechat         = "your wechat qr code image"
+#  medium        = "full profile url in medium"
+#  slack         = "full workspace url in slack"
+#  pinterest     = "full profile url in pinterest"
+#  reddit        = "full profile url in reddit"
+#  gitlab        = "full profile url in gitlab"
+#  mastodon      = "full profile url in mastodon"
+#  keybase       = "full profile url in keybase"
+#  xing          = "https://www.xing.com/profile/yourxingid"
+#  git           = "full profile url for git user"
   
   [[params.friend_link]]
   title = "Linda的博客"
@@ -107,9 +109,9 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.addtional_menus]]
   title =  "ARCHIVE"
   href =  "/archive/"
-  [[params.addtional_menus]]
-  title =  "NOTES"
-  href =  "/notes/"
+#  [[params.addtional_menus]]
+#  title =  "NOTES"
+#  href =  "/notes/"
   [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/about/"
