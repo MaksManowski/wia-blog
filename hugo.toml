@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/home-bg-jeep.jpg"
+  header_image = "img/table-mountain.png"
   SEOTitle = "WIA Blog"
   description = "A blog about Warwick in Africa made by a student volunteer. Warwick in Africa aims to improve education in Sub-Saharan Africa."
   keyword = "Warwick in Africa, Student Volunteer, Warwick, Volunteering, Warwick Volunteering, Maks Manowski, Maksymilian Manowski"
