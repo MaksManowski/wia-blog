@@ -12,7 +12,7 @@ image: "/img/2018-06-02-istio08/background.jpg"
 #categories: [ Tech ]
 URL: "/post/example"
 #draft: true #Removes page from "All posts" TODO: make this true
-published: true #Removes page from website
+published: false #Removes page from website
 ---
 > Put description here
 
