@@ -5,6 +5,17 @@
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/public/about" />
+      <excludeFolder url="file://$MODULE_DIR$/public/archive" />
+      <excludeFolder url="file://$MODULE_DIR$/public/css" />
+      <excludeFolder url="file://$MODULE_DIR$/public/img/home-dark" />
+      <excludeFolder url="file://$MODULE_DIR$/public/img/home-light" />
+      <excludeFolder url="file://$MODULE_DIR$/public/img/reward" />
+      <excludeFolder url="file://$MODULE_DIR$/public/js" />
+      <excludeFolder url="file://$MODULE_DIR$/public/page" />
+      <excludeFolder url="file://$MODULE_DIR$/public/post/readme" />
+      <excludeFolder url="file://$MODULE_DIR$/public/search/placeholder" />
+      <excludeFolder url="file://$MODULE_DIR$/public/webfonts" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
