@@ -6,7 +6,7 @@ excerpt: "This website was started in 2023 to showcase my journey (Maks Manowski
 author: "Maks Manowski"
 date: 2023-07-24
 description: "Information about the history of this blog as well as details on how to contribute."
-image: "/img/folder/background.jpg"
+image: "https://lh3.googleusercontent.com/pw/ADCreHdQrw8ROtL-xDAYmFtx3bUN1kDRcqQ3EVD3RYFYfOFClyjN9XT6L1yTGi9hyiKIrIzcNnjJI-XsBKsiPAuPsOYLuq7YyHzpxMMR99tmSYTVdNEoaE-4t9KQcIgVBbg2G3N1IMf0JCm7bHpzCmvBOXs=w1113-h839-s-no?authuser=1"
 ---
 
 # Warwick in Africa blog website
